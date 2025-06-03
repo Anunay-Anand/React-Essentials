@@ -40,26 +40,10 @@ function App() {
         <section id="core-concepts">
           <h2>Core Concepts</h2>
           <ul>
-            <CoreComponent
-              title={CORE_CONCEPTS[0].title}
-              image={CORE_CONCEPTS[0].image}
-              description={CORE_CONCEPTS[0].description}
-            />
-            <CoreComponent
-              title={CORE_CONCEPTS[1].title}
-              image={CORE_CONCEPTS[1].image}
-              description={CORE_CONCEPTS[1].description}
-            />
-            <CoreComponent
-              title={CORE_CONCEPTS[2].title}
-              image={CORE_CONCEPTS[2].image}
-              description={CORE_CONCEPTS[2].description}
-            />
-            <CoreComponent
-              title={CORE_CONCEPTS[3].title}
-              image={CORE_CONCEPTS[3].image}
-              description={CORE_CONCEPTS[3].description}
-            />
+            <CoreComponent {...CORE_CONCEPTS[0]} />
+            <CoreComponent {...CORE_CONCEPTS[1]} />
+            <CoreComponent {...CORE_CONCEPTS[2]} />
+            <CoreComponent {...CORE_CONCEPTS[3]} />
           </ul>
         </section>
       </main>
